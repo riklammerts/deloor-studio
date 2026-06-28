@@ -93,7 +93,7 @@
       "f.submit":"Begin een gesprek",
       "f.sending":"Versturen…",
       "f.ok":"Dank je. Je bericht is verzonden — we reageren binnen twee werkdagen.",
-      "f.err":"Er ging iets mis. Mail ons gerust direct op studio@deloor.studio.",
+      "f.err":"Er ging iets mis. Mail ons gerust direct op hello@deloor.studio.",
 
       /* footer */
       "foot.studio":"Studio","foot.connect":"Contact","foot.based":"Gevestigd",
@@ -223,7 +223,7 @@
       "f.submit":"Begin a conversation",
       "f.sending":"Sending…",
       "f.ok":"Thank you. Your message is on its way — we'll reply within two working days.",
-      "f.err":"Something went wrong. Please email us directly at studio@deloor.studio.",
+      "f.err":"Something went wrong. Please email us directly at hello@deloor.studio.",
 
       "foot.studio":"Studio","foot.connect":"Connect","foot.based":"Based",
       "foot.work":"Work","foot.serv":"Capabilities","foot.proc":"Process","foot.aerial":"Aerial",

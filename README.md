@@ -17,7 +17,7 @@ Nederlands is standaard, met een NL/EN-toggle in de navigatie. Voorkeur wordt be
 
 ## Contactformulier
 
-Verstuurt via [Formspree](https://formspree.io/) (`index.html`, form-action). Inzendingen komen binnen op `rik@deloor.studio`.
+Verstuurt via [Formspree](https://formspree.io/) (`index.html`, form-action). Inzendingen komen binnen op `hello@deloor.studio`.
 
 ## Lokaal bekijken
 
