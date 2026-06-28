@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# Editor / tooling
+.claude/
+.vscode/
+
+# Dependencies (none needed — static site)
+node_modules/
+
+# Secrets — never commit
+.alpaca
+*.env
+.env*
+*credential*
