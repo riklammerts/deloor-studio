@@ -1,317 +1,705 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl" data-title-en="De Loor Studio — Film, photography &amp; aerial for exceptional stays">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>De Loor Studio — Cinematografische studio voor luxe hospitality</title>
-<meta name="description" content="De Loor Studio creëert films en fotografie voor de meest doordachte hotels, resorts en restaurants ter wereld. Wij leggen ervaringen niet vast — wij creëren verlangen." />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>De Loor Studio — Film, fotografie & drone voor luxe verblijven</title>
+<meta name="description" content="De Loor Studio maakt cinematische film, fotografie en dronebeeld voor alpine resorts, luxe glampings en fine dining. Werkzaam in Nederland en de Alpen. Plan een shoot." />
+<link rel="canonical" href="https://deloor.studio/" />
+<meta name="theme-color" content="#1B1B18" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="De Loor Studio" />
+<meta property="og:locale" content="nl_NL" />
+<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:url" content="https://deloor.studio/" />
+<meta property="og:title" content="De Loor Studio — Film, fotografie & drone voor luxe verblijven" />
+<meta property="og:description" content="Cinematische film, fotografie en dronebeeld voor alpine resorts, luxe glampings en fine dining. Nederland en de Alpen." />
+<meta property="og:image" content="https://deloor.studio/assets/img/kaiserblick-aerial-1280.webp" />
+<meta property="og:image:alt" content="Alpineresort in gouden avondlicht, gezien vanuit de lucht" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231B1B18'/%3E%3Cpath d='M9 7h8a8 9 0 0 1 0 18H9z' fill='none' stroke='%239C7A3C' stroke-width='1.6'/%3E%3Ccircle cx='13.5' cy='16' r='1.3' fill='%239C7A3C'/%3E%3C/svg%3E" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="preload" as="image" href="assets/img/kaiserblick-aerial.webp" imagesrcset="assets/img/kaiserblick-aerial-760.webp 760w, assets/img/kaiserblick-aerial-1280.webp 1280w, assets/img/kaiserblick-aerial.webp 2400w" imagesizes="100vw" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://deloor.studio/#studio",
+  "name": "De Loor Studio",
+  "description": "Cinematische film, fotografie en dronebeeld voor luxe verblijven: alpine resorts, glampings, chalets en fine dining.",
+  "url": "https://deloor.studio/",
+  "email": "hello@deloor.studio",
+  "telephone": "+31641730319",
+  "founder": { "@type": "Person", "name": "Rik Lammerts" },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Oosterhout",
+    "addressCountry": "NL"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Nederland" },
+    { "@type": "Country", "name": "Oostenrijk" },
+    { "@type": "Country", "name": "Italië" },
+    { "@type": "Country", "name": "Duitsland" }
+  ],
+  "sameAs": ["https://www.instagram.com/deloorstudio/"],
+  "knowsLanguage": ["nl", "en"],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cinematische merkfilm" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hospitality-fotografie" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aerial- en dronebeeld" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Verticale social content" } }
+  ]
+}
+</script>
 </head>
-<body data-doc-title="doc.home">
 
-<div class="grain" aria-hidden="true"></div>
-<div class="cursor hidden" aria-hidden="true"></div>
-<div class="cursor-dot hidden" aria-hidden="true"></div>
+<body data-page="home">
 
-<!-- NAV -->
-<nav>
-  <a href="#top" class="brand" data-hover>DE LOOR STUDIO</a>
-  <div class="nav-right">
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Naar de inhoud</a>
+
+<!-- ====================== NAVIGATIE ====================== -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="De Loor Studio — naar boven">De&nbsp;Loor&nbsp;Studio</a>
+
+  <nav class="nav-right" aria-label="Hoofdnavigatie">
     <div class="nav-links">
-      <a href="#work" data-i18n="nav.work">Werk</a>
-      <a href="#services" data-i18n="nav.studio">Studio</a>
-      <a href="#process" data-i18n="nav.process">Proces</a>
+      <a href="#werk" data-i18n="nav.work">Werk</a>
+      <a href="#diensten" data-i18n="nav.services">Diensten</a>
+      <a href="#werkwijze" data-i18n="nav.approach">Werkwijze</a>
+      <a href="#studio" data-i18n="nav.studio">Studio</a>
     </div>
-    <div class="lang" role="group" aria-label="Taal / Language">
-      <button type="button" data-lang="nl" class="active">NL</button>
-      <span class="sep" aria-hidden="true">/</span>
-      <button type="button" data-lang="en">EN</button>
-    </div>
-    <a href="#contact" class="nav-cta" data-i18n="nav.contact">Contact</a>
-  </div>
-</nav>
 
-<!-- HERO -->
-<header class="hero" id="top">
-  <div class="hero-media" data-parallax="0.18">
-    <img alt="Gouden avondlicht over een rustig terras van een luxehotel"
-         data-src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2400&q=80" />
-  </div>
-  <div class="hero-inner">
-    <span class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Cinematografische studio — luxe hospitality</span>
-    <h1 class="display">
-      <span class="line"><span data-in data-i18n="hero.l1">Wij creëren</span></span>
-      <span class="line"><span data-in class="ital" data-i18n="hero.l2">verlangen.</span></span>
-    </h1>
-    <div class="hero-foot">
-      <p data-i18n="hero.foot">Films en fotografie voor de meest doordachte hotels, resorts en restaurants ter wereld. Wij verkopen geen kamers of gerechten — wij laten mensen ernaar verlangen.</p>
-      <div class="scroll-cue"><span data-i18n="hero.scroll">Scroll</span><span class="bar"></span></div>
+    <div class="lang" role="group" aria-label="Taal / Language">
+      <button type="button" data-lang="nl" aria-pressed="true">NL</button>
+      <span class="sep" aria-hidden="true">/</span>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
     </div>
-  </div>
+
+    <a class="nav-cta" href="#contact" data-i18n="cta.primary">Plan een shoot</a>
+
+    <button class="nav-toggle" type="button" id="nav-toggle"
+            aria-expanded="false" aria-controls="menu" aria-label="Menu openen">
+      <span></span><span></span>
+    </button>
+  </nav>
 </header>
 
-<!-- MARQUEE -->
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span data-i18n="mq.1">Boutiquehotels</span><span data-i18n="mq.2">Michelin-tafels</span><span data-i18n="mq.3">Resorts</span><span data-i18n="mq.4">Fine dining</span><span data-i18n="mq.5">Luchtbeelden</span><span data-i18n="mq.6">Merkfilms</span>
-    <span data-i18n="mq.1">Boutiquehotels</span><span data-i18n="mq.2">Michelin-tafels</span><span data-i18n="mq.3">Resorts</span><span data-i18n="mq.4">Fine dining</span><span data-i18n="mq.5">Luchtbeelden</span><span data-i18n="mq.6">Merkfilms</span>
+<!-- Mobiel menu -->
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Mobiele navigatie">
+    <a class="menu-link" href="#werk" data-i18n="nav.work">Werk</a>
+    <a class="menu-link" href="#diensten" data-i18n="nav.services">Diensten</a>
+    <a class="menu-link" href="#werkwijze" data-i18n="nav.approach">Werkwijze</a>
+    <a class="menu-link" href="#studio" data-i18n="nav.studio">Studio</a>
+    <a class="menu-link" href="#contact" data-i18n="cta.primary">Plan een shoot</a>
+  </nav>
+  <p class="menu-foot">
+    <a href="mailto:hello@deloor.studio">hello@deloor.studio</a><br />
+    <a href="https://wa.me/31641730319" rel="noopener">+31 6 41 73 03 19</a>
+  </p>
+</div>
+
+<main id="main">
+
+<!-- ====================== HERO ====================== -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <img src="assets/img/kaiserblick-aerial.webp"
+         srcset="assets/img/kaiserblick-aerial-760.webp 760w,
+                 assets/img/kaiserblick-aerial-1280.webp 1280w,
+                 assets/img/kaiserblick-aerial.webp 2400w"
+         sizes="100vw"
+         width="2400" height="1350" fetchpriority="high" decoding="async"
+         alt="Alpineresort Das Kaiserblick in Ellmau vanuit de lucht, in het laatste gouden licht van de dag" />
+  </div>
+
+  <div class="wrap hero-inner">
+    <span class="eyebrow hero-eyebrow" data-reveal data-i18n="hero.eyebrow">Film · Fotografie · Drone — Nederland &amp; de Alpen</span>
+
+    <h1 class="display d-xl">
+      <span class="line" data-mask><span data-i18n="hero.l1">Wij filmen het</span></span>
+      <span class="line" data-mask style="--delay:110ms"><span data-i18n="hero.l2">gevoel van</span></span>
+      <span class="line" data-mask style="--delay:220ms"><span><em data-i18n="hero.l3">aankomen.</em></span></span>
+    </h1>
+
+    <div class="hero-foot">
+      <p class="lede" data-reveal style="--delay:420ms" data-i18n="hero.lede">
+        De plek die je gebouwd hebt, eindelijk gezien zoals jij hem ziet wanneer niemand kijkt.
+        Voor resorts, chalets, glampings en tafels die het waard zijn om te voelen.
+      </p>
+      <div class="hero-actions" data-reveal style="--delay:520ms">
+        <a class="btn btn--solid" href="#contact">
+          <span data-i18n="cta.primary">Plan een shoot</span>
+          <span class="arw" aria-hidden="true">→</span>
+        </a>
+        <a class="btn" href="#werk">
+          <span data-i18n="cta.secondary">Bekijk het werk</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span data-i18n="hero.scroll">Scroll</span>
+    <span class="bar"></span>
+  </div>
+</section>
+
+<!-- ====================== TICKER ====================== -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span data-i18n="tick.1">Alpine resorts</span><span data-i18n="tick.2">Luxe glamping</span><span data-i18n="tick.3">Chalets</span><span data-i18n="tick.4">Fine dining</span><span data-i18n="tick.5">Merkfilm</span><span data-i18n="tick.6">Aerial</span><span data-i18n="tick.7">Fotografie</span>
+  </div>
+  <div class="ticker-track">
+    <span data-i18n="tick.1">Alpine resorts</span><span data-i18n="tick.2">Luxe glamping</span><span data-i18n="tick.3">Chalets</span><span data-i18n="tick.4">Fine dining</span><span data-i18n="tick.5">Merkfilm</span><span data-i18n="tick.6">Aerial</span><span data-i18n="tick.7">Fotografie</span>
   </div>
 </div>
 
-<!-- PHILOSOPHY -->
-<section class="philosophy section-pad" id="philosophy">
+<!-- ====================== MANIFEST ====================== -->
+<section class="section" id="manifest" aria-labelledby="manifest-h">
   <div class="wrap">
-    <span class="eyebrow reveal" data-i18n="phil.eyebrow">De studio</span>
-    <div class="phil-grid">
-      <h2 class="display phil-statement reveal d1" data-i18n="phil.statement">Wij leggen ervaringen<br>niet vast. Wij<br><span class="ital">creëren</span> ze.</h2>
-      <div class="phil-side reveal d2">
-        <div class="num" data-i18n="phil.num">— 01 / Filosofie</div>
-        <p class="fine" data-i18n="phil.p1">De Loor Studio is een creatieve studio op het snijvlak van cinema, architectuur en smaak.</p>
-        <p class="fine" style="margin-top:22px" data-i18n="phil.p2">Wij werken met een select aantal locaties per jaar.</p>
+    <div class="manifest-grid">
+      <div>
+        <span class="eyebrow" data-reveal style="margin-bottom:26px" data-i18n="man.eyebrow">De studio</span>
+        <h2 class="display d-l" id="manifest-h" data-reveal style="--delay:80ms" data-i18n-html="man.h">
+          Wij filmen niet het gebouw.<br />Wij filmen wat het <em>met iemand doet</em>.
+        </h2>
       </div>
+
+      <div class="manifest-side">
+        <p class="body-muted" data-reveal style="--delay:160ms" data-i18n="man.p1">
+          High-end gastvrijheid verkoopt geen kamer. Het verkoopt een gevoel. Dan moet het beeld
+          dezelfde taal spreken als het verblijf zelf — niet als marketingmateriaal erover.
+        </p>
+        <p class="body-muted" data-reveal style="--delay:240ms" data-i18n="man.p2">
+          De Loor klinkt als de deur. Dat is het uitgangspunt: elke film is een deur die
+          iemand opent naar een plek waar hij nog nooit is geweest.
+        </p>
+        <p class="body-muted" data-reveal style="--delay:320ms" data-i18n="man.p3">
+          Eén studio voor film, fotografie én drone. Geen crew van vijf, geen productiemachine —
+          één paar ogen dat de hele plek in dezelfde toon vastlegt.
+        </p>
+      </div>
+    </div>
+
+    <div class="values">
+      <article class="value" data-reveal>
+        <span class="index-mark">01</span>
+        <h3 data-i18n="val.1.h">Zintuiglijk</h3>
+        <p data-i18n="val.1.p">Licht, textuur, damp op een glas, een handdoek over een stoel.
+          Mensenmaat voelbaar in beeld — ook zonder mensen in beeld.</p>
+      </article>
+      <article class="value" data-reveal style="--delay:90ms">
+        <span class="index-mark">02</span>
+        <h3 data-i18n="val.2.h">Precisie</h3>
+        <p data-i18n="val.2.p">Drone-shots met een reden. Langzame, doelgerichte reveals in plaats van
+          rondvliegen tot er iets moois voorbijkomt.</p>
+      </article>
+      <article class="value" data-reveal style="--delay:180ms">
+        <span class="index-mark">03</span>
+        <h3 data-i18n="val.3.h">Rust met spanning</h3>
+        <p data-i18n="val.3.p">Kalm, warm, filmisch gegradeerd. Geen oververzadigde telefoonlook.
+          Elk shot beweegt, maar nooit zonder aanleiding.</p>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- SELECTED WORK -->
-<section class="work section-pad" id="work">
+<!-- ====================== WERK ====================== -->
+<section class="section" id="werk" aria-labelledby="werk-h">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow reveal" style="margin-bottom:22px" data-i18n="work.eyebrow">Geselecteerd werk</span>
-        <h2 class="display reveal d1" data-i18n="work.h">Hoofdstukken,<br>geen portfolio's.</h2>
+        <span class="eyebrow" data-reveal style="margin-bottom:26px" data-i18n="work.eyebrow">Geselecteerd werk</span>
+        <h2 class="display d-l" id="werk-h" data-reveal style="--delay:80ms" data-i18n-html="work.h">
+          Plekken die het<br />waard zijn om <em>te voelen</em>.
+        </h2>
       </div>
-      <p class="meta reveal d2" data-i18n="work.meta">Een handvol recente samenwerkingen binnen hospitality, gastronomie en plek.</p>
+      <p class="lede" data-reveal style="--delay:160ms" data-i18n="work.lede">
+        Van een Tiroolse sky pool tot een Italiaanse ontbijttafel in Eindhoven.
+        Steeds dezelfde vraag: wat voelt een gast op het moment dat hij binnenkomt?
+      </p>
     </div>
 
-    <article class="case left">
-      <a class="case-link reveal" href="work/de-uren-van-licht.html">
-        <div class="case-media">
-          <div class="ph" data-parallax="0.06" data-bg="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=80"></div>
+    <div class="filters" role="group" aria-label="Filter werk op segment">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true" data-i18n="filter.all">Alles</button>
+      <button class="filter" type="button" data-filter="alpine" aria-pressed="false" data-i18n="filter.alpine">Alpine resorts</button>
+      <button class="filter" type="button" data-filter="glamping" aria-pressed="false" data-i18n="filter.glamping">Glamping</button>
+      <button class="filter" type="button" data-filter="dining" aria-pressed="false" data-i18n="filter.dining">Fine dining</button>
+      <button class="filter" type="button" data-filter="stays" aria-pressed="false" data-i18n="filter.stays">Verblijven</button>
+    </div>
+
+    <p class="visually-hidden" role="status" id="filter-status"></p>
+
+    <div class="work-grid" id="work-grid">
+
+      <a class="project project--wide" href="work/das-kaiserblick.html" data-cat="alpine" data-reveal>
+        <div class="project-media">
+          <span class="project-tag" data-i18n="tag.alpine">Alpine resort</span>
+          <img src="assets/img/kaiserblick-skypool.webp"
+               srcset="assets/img/kaiserblick-skypool-900.webp 900w, assets/img/kaiserblick-skypool.webp 1600w"
+               sizes="(max-width: 720px) 100vw, 92vw"
+               width="1600" height="1067" loading="lazy" decoding="async"
+               alt="Sky pool van Das Kaiserblick met uitzicht op het massief van de Wilder Kaiser" />
         </div>
-        <span class="case-tag" data-i18n="c1.tag">Merkfilm</span>
-        <span class="case-view" data-i18n="work.view">Bekijk<br>verhaal</span>
-      </a>
-      <div class="case-info reveal d1">
-        <span class="idx">01</span>
-        <h3 data-i18n="c1.title">De uren<br>van licht</h3>
-        <div class="where" data-i18n="c1.where">Boutiquehotel — Amalfikust, IT</div>
-        <div class="svc"><span data-i18n="svc.film">Cinematische film</span><span data-i18n="svc.drone">Drone</span><span data-i18n="svc.stills">Fotografie</span></div>
-      </div>
-    </article>
-
-    <article class="case right">
-      <a class="case-link reveal" href="work/een-tafel-in-vuur.html">
-        <div class="case-media">
-          <div class="ph" data-parallax="0.06" data-bg="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1800&q=80"></div>
-        </div>
-        <span class="case-tag" data-i18n="c2.tag">Gastronomie</span>
-        <span class="case-view" data-i18n="work.view">Bekijk<br>verhaal</span>
-      </a>
-      <div class="case-info reveal d1">
-        <span class="idx">02</span>
-        <h3 data-i18n="c2.title">Een tafel<br>in vuur</h3>
-        <div class="where" data-i18n="c2.where">Michelinrestaurant — Kopenhagen, DK</div>
-        <div class="svc"><span data-i18n="svc.food">Foodfilm</span><span data-i18n="svc.photo">Fotografie</span><span data-i18n="svc.social">Social</span></div>
-      </div>
-    </article>
-
-    <article class="case left">
-      <a class="case-link reveal" href="work/waar-het-land-eindigt.html">
-        <div class="case-media">
-          <div class="ph" data-parallax="0.06" data-bg="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1800&q=80"></div>
-        </div>
-        <span class="case-tag" data-i18n="c3.tag">Resort</span>
-        <span class="case-view" data-i18n="work.view">Bekijk<br>verhaal</span>
-      </a>
-      <div class="case-info reveal d1">
-        <span class="idx">03</span>
-        <h3 data-i18n="c3.title">Waar het<br>land eindigt</h3>
-        <div class="where" data-i18n="c3.where">Resort aan de klif — Cycladen, GR</div>
-        <div class="svc"><span data-i18n="svc.campaign">Campagne</span><span data-i18n="svc.aerial">Luchtbeelden</span><span data-i18n="svc.basicfilm">Film</span></div>
-      </div>
-    </article>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="services section-pad" id="services">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow reveal" style="margin-bottom:22px" data-i18n="serv.eyebrow">Diensten</span>
-        <h2 class="display reveal d1" data-i18n="serv.h">Eén studio.<br>Elk beeld.</h2>
-      </div>
-      <p class="meta reveal d2" data-i18n="serv.meta">Regie, productie en post — onder één dak, zodat het verhaal nooit breekt.</p>
-    </div>
-    <div class="svc-list">
-      <div class="svc-row reveal"><span class="fill"></span><span class="n">01</span><span class="name display" data-i18n="serv.1">Cinematische merkfilms</span><span class="desc" data-i18n="serv.1d">Kenmerkende films die een locatie tot een gevoel maken.</span></div>
-      <div class="svc-row reveal"><span class="fill"></span><span class="n">02</span><span class="name display" data-i18n="serv.2">Food & gastronomie</span><span class="desc" data-i18n="serv.2d">Stoom, licht en vakmanschap — het gerecht op zijn meest begeerlijk.</span></div>
-      <div class="svc-row reveal"><span class="fill"></span><span class="n">03</span><span class="name display" data-i18n="serv.3">Architectuur & interieur</span><span class="desc" data-i18n="serv.3d">Ruimte, schaduw en materiaal, met eerbied vastgelegd.</span></div>
-      <div class="svc-row reveal"><span class="fill"></span><span class="n">04</span><span class="name display" data-i18n="serv.4">Lucht & drone</span><span class="desc" data-i18n="serv.4d">FPV en cinematische luchtbeelden die het onmogelijke tonen.</span></div>
-      <div class="svc-row reveal"><span class="fill"></span><span class="n">05</span><span class="name display" data-i18n="serv.5">Campagnebeelden</span><span class="desc" data-i18n="serv.5d">Heldbeelden die een heel campagneseizoen dragen.</span></div>
-      <div class="svc-row reveal"><span class="fill"></span><span class="n">06</span><span class="name display" data-i18n="serv.6">Social motion</span><span class="desc" data-i18n="serv.6d">Short-form, gesneden uit dezelfde cinematische grade.</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- WHY HOSPITALITY -->
-<section class="why section-pad">
-  <div class="wrap">
-    <div class="why-statement display reveal">
-      <span data-i18n="why.h">Hospitality<br>verdient <span class="ital">cinema.</span></span>
-      <p class="fine" style="margin-top:34px" data-i18n="why.p">Een groot hotel is choreografie — aankomst, licht, geur, het gewicht van een deur.</p>
-    </div>
-    <div class="why-img reveal d1">
-      <div class="ph" data-parallax="0.08" data-bg="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1500&q=80"></div>
-    </div>
-  </div>
-</section>
-
-<!-- DRONE -->
-<section class="drone" id="drone">
-  <div class="drone-bg" data-parallax="0.2">
-    <img alt="Top-down luchtopname van een kustresort dat oplost in het landschap — wit zand, turquoise branding en palmen"
-         data-src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=2400&q=80" />
-  </div>
-  <div class="wrap">
-    <span class="eyebrow reveal" style="margin-bottom:30px" data-i18n="drone.eyebrow">Perspectief vanuit de lucht</span>
-    <div class="drone-grid">
-      <h2 class="display reveal d1" data-i18n="drone.h">Van<br><span class="ital">bovenaf.</span></h2>
-      <p class="lede reveal d2" data-i18n="drone.lede">Vanaf de grond is een resort een gebouw. Vanuit de lucht wordt het landschap.</p>
-    </div>
-    <div class="drone-stats reveal d2">
-      <div class="stat"><div class="v">4K</div><div class="k" data-i18n="drone.k1">Luchtopnames</div></div>
-      <div class="stat"><div class="v">FPV</div><div class="k" data-i18n="drone.k2">Cinematische vlucht</div></div>
-      <div class="stat"><div class="v">120fps</div><div class="k" data-i18n="drone.k3">Slow motion</div></div>
-      <div class="stat"><div class="v" data-i18n="drone.v4">EU + wereldwijd</div><div class="k" data-i18n="drone.k4">Gecertificeerde crew</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- PROCESS -->
-<section class="process section-pad" id="process">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow reveal" style="margin-bottom:22px" data-i18n="proc.eyebrow">Het proces</span>
-        <h2 class="display reveal d1" data-i18n="proc.h">Doordacht,<br>van begin tot beeld.</h2>
-      </div>
-      <p class="meta reveal d2" data-i18n="proc.meta">Vier bewegingen, van eerste gesprek tot eindgrade.</p>
-    </div>
-    <div class="proc-grid">
-      <div class="proc reveal"><div class="pn">01</div><h4 data-i18n="proc.1">Immersie</h4><p data-i18n="proc.1d">Wij leven ons eerst in jouw wereld in.</p></div>
-      <div class="proc reveal d1"><div class="pn">02</div><h4 data-i18n="proc.2">Regie</h4><p data-i18n="proc.2d">Een treatment, een sfeer, een beeldarchitectuur.</p></div>
-      <div class="proc reveal d2"><div class="pn">03</div><h4 data-i18n="proc.3">Opname</h4><p data-i18n="proc.3d">Een kleine, ervaren crew.</p></div>
-      <div class="proc reveal d3"><div class="pn">04</div><h4 data-i18n="proc.4">Vakmanschap</h4><p data-i18n="proc.4d">Montage, geluid en colour grading die tijdloos aanvoelen.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIAL -->
-<section class="testi section-pad">
-  <div class="wrap">
-    <span class="eyebrow reveal" style="margin-bottom:40px" data-i18n="testi.eyebrow">In hun woorden</span>
-    <blockquote class="quote reveal d1" data-i18n="testi.quote">“Zij begrepen onze locatie beter dan ons eigen merkteam.”</blockquote>
-    <div class="quote-by reveal d2" data-i18n="testi.by">General Manager — vijfsterrenresort, Middellandse Zee</div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="contact" id="contact">
-  <div class="contact-glow" aria-hidden="true"></div>
-  <div class="wrap">
-    <div class="contact-grid">
-      <div>
-        <span class="eyebrow reveal" data-i18n="contact.eyebrow">Selecte samenwerkingen · 2026</span>
-        <h2 class="display reveal d1" data-i18n="contact.h">Laten we<br><span class="ital">verlangen</span> creëren.</h2>
-        <p class="contact-intro reveal d2" data-i18n="contact.intro">Wij nemen elk jaar een klein aantal nieuwe locaties aan.</p>
-        <div class="contact-detail reveal d2">
-          <span class="eyebrow" style="margin-bottom:16px" data-i18n="contact.or">Of mail ons direct</span>
-          <a href="mailto:hello@deloor.studio" data-hover>hello@deloor.studio</a>
-        </div>
-      </div>
-
-      <div class="reveal d1">
-        <form id="contact-form" class="contact-form" action="https://formspree.io/f/xzdqoegp" method="POST">
-          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-          <input type="hidden" name="_subject" value="Nieuwe aanvraag — De Loor Studio" />
-          <div class="form-row">
-            <div class="field">
-              <label for="f-name" data-i18n="f.name">Naam</label>
-              <input id="f-name" name="name" type="text" required data-i18n-ph="f.name.ph" placeholder="Voor- en achternaam" />
-            </div>
-            <div class="field">
-              <label for="f-email" data-i18n="f.email">E-mail</label>
-              <input id="f-email" name="email" type="email" required data-i18n-ph="f.email.ph" placeholder="jij@locatie.com" />
-            </div>
+        <div class="project-info">
+          <span class="idx index-mark">01</span>
+          <h3 data-i18n="p1.title">Das Kaiserblick</h3>
+          <div class="project-where" data-i18n="p1.where">Hotel &amp; Sky Pool — Ellmau, Tirol (AT)</div>
+          <div class="project-svc">
+            <span data-i18n="svc.film">Merkfilm</span><span data-i18n="svc.photo">Fotografie</span><span data-i18n="svc.aerial">Aerial</span>
           </div>
-          <div class="form-row">
-            <div class="field">
-              <label for="f-company" data-i18n="f.company">Hotel / restaurant / merk</label>
-              <input id="f-company" name="company" type="text" data-i18n-ph="f.company.ph" placeholder="Naam van de locatie" />
-            </div>
-            <div class="field">
-              <label for="f-type" data-i18n="f.type">Type locatie</label>
-              <select id="f-type" name="property_type">
-                <option value="" data-i18n="f.type.0">Selecteer…</option>
-                <option value="hotel" data-i18n="f.type.hotel">Boutique- / luxehotel</option>
-                <option value="resort" data-i18n="f.type.resort">Resort</option>
-                <option value="restaurant" data-i18n="f.type.restaurant">Restaurant / Michelin</option>
-                <option value="cafe" data-i18n="f.type.cafe">Café / bar</option>
-                <option value="brand" data-i18n="f.type.brand">Hospitality-merk</option>
-                <option value="other" data-i18n="f.type.other">Anders</option>
-              </select>
-            </div>
+        </div>
+      </a>
+
+      <a class="project" href="work/natterer-see.html" data-cat="glamping alpine" data-reveal>
+        <div class="project-media">
+          <span class="project-tag" data-i18n="tag.glamping">Luxe glamping</span>
+          <img src="assets/img/natterersee-lake-wide.webp"
+               srcset="assets/img/natterersee-lake-wide-900.webp 900w, assets/img/natterersee-lake-wide.webp 1350w"
+               sizes="(max-width: 720px) 100vw, 46vw"
+               width="1350" height="900" loading="lazy" decoding="async"
+               alt="Het meer van Ferienparadies Natterer See bij zonsondergang, gezien vanuit de lucht" />
+        </div>
+        <div class="project-info">
+          <span class="idx index-mark">02</span>
+          <h3 data-i18n="p2.title">Ferienparadies Natterer See</h3>
+          <div class="project-where" data-i18n="p2.where">Lodges aan het meer — Natters bij Innsbruck (AT)</div>
+          <div class="project-svc">
+            <span data-i18n="svc.film">Merkfilm</span><span data-i18n="svc.aerial">Aerial</span><span data-i18n="svc.reels">Verticals</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project project--offset" href="work/le-sorelline.html" data-cat="dining" data-reveal style="--delay:90ms">
+        <div class="project-media">
+          <span class="project-tag" data-i18n="tag.dining">Fine dining</span>
+          <img src="assets/img/sorelline-interior.webp"
+               srcset="assets/img/sorelline-interior-900.webp 900w, assets/img/sorelline-interior.webp 1600w"
+               sizes="(max-width: 720px) 100vw, 46vw"
+               width="1600" height="1067" loading="lazy" decoding="async"
+               alt="Interieur van Le Sorelline in Eindhoven met middaglicht over de tafels" />
+        </div>
+        <div class="project-info">
+          <span class="idx index-mark">03</span>
+          <h3 data-i18n="p3.title">Le Sorelline</h3>
+          <div class="project-where" data-i18n="p3.where">Italiaanse tafel — Eindhoven (NL)</div>
+          <div class="project-svc">
+            <span data-i18n="svc.film">Merkfilm</span><span data-i18n="svc.photo">Fotografie</span><span data-i18n="svc.reels">Verticals</span>
+          </div>
+        </div>
+      </a>
+
+      <article class="project project--third project--portrait" data-cat="alpine stays" data-reveal>
+        <div class="project-media">
+          <span class="project-tag" data-i18n="tag.chalet">Chalets</span>
+          <img src="assets/img/skyview-chalet.webp"
+               srcset="assets/img/skyview-chalet-900.webp 900w, assets/img/skyview-chalet.webp 1600w"
+               sizes="(max-width: 720px) 100vw, 31vw"
+               width="1600" height="1067" loading="lazy" decoding="async"
+               alt="Warm houten interieur van een chalet in de Dolomieten met avondlicht langs de wand" />
+        </div>
+        <div class="project-info">
+          <span class="idx index-mark">04</span>
+          <h3 data-i18n="p4.title">Skyview Chalets</h3>
+          <div class="project-where" data-i18n="p4.where">Chalets — Dolomieten (IT)</div>
+          <div class="project-svc"><span data-i18n="svc.aerial">Aerial</span><span data-i18n="svc.photo">Fotografie</span></div>
+        </div>
+      </article>
+
+      <article class="project project--third project--portrait" data-cat="glamping alpine" data-reveal style="--delay:90ms">
+        <div class="project-media">
+          <span class="project-tag" data-i18n="tag.glamping">Luxe glamping</span>
+          <img src="assets/img/olympia-aerial.webp"
+               sizes="(max-width: 720px) 100vw, 31vw"
+               width="720" height="1080" loading="lazy" decoding="async"
+               alt="Camping Olympia in Dobbiaco vanuit de lucht, met de Drei Zinnen aan de horizon" />
+        </div>
+        <div class="project-info">
+          <span class="idx index-mark">05</span>
+          <h3 data-i18n="p5.title">Camping Olympia</h3>
+          <div class="project-where" data-i18n="p5.where">Alpine camping — Dobbiaco, Zuid-Tirol (IT)</div>
+          <div class="project-svc"><span data-i18n="svc.aerial">Aerial</span></div>
+        </div>
+      </article>
+
+      <article class="project project--third project--portrait" data-cat="stays" data-reveal style="--delay:180ms">
+        <div class="project-media">
+          <span class="project-tag" data-i18n="tag.stay">Verblijf</span>
+          <img src="assets/img/stella-bath.webp"
+               sizes="(max-width: 720px) 100vw, 31vw"
+               width="1080" height="1620" loading="lazy" decoding="async"
+               alt="Badkamer van Stella Suites met messing kraanwerk tegen een donkere wand" />
+        </div>
+        <div class="project-info">
+          <span class="idx index-mark">06</span>
+          <h3 data-i18n="p6.title">Stella Suites</h3>
+          <div class="project-where" data-i18n="p6.where">Suites — Goirle (NL)</div>
+          <div class="project-svc"><span data-i18n="svc.film">Merkfilm</span><span data-i18n="svc.reels">Verticals</span></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="work-note" data-reveal>
+      <p class="body-muted" data-i18n="work.note">
+        Een deel van het werk is in opdracht gemaakt en verschijnt eerst op de kanalen van de locatie zelf.
+        Vraag gerust naar recent materiaal dat nog niet online staat.
+      </p>
+      <a class="tlink" href="#contact" data-i18n="work.ask">Vraag de volledige selectie aan</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== BEWEGING ====================== -->
+<section class="section" id="beweging" aria-labelledby="beweging-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-reveal style="margin-bottom:26px" data-i18n="reel.eyebrow">In beweging</span>
+        <h2 class="display d-l" id="beweging-h" data-reveal style="--delay:80ms" data-i18n-html="reel.h">
+          Wat er op je feed<br />terechtkomt.
+        </h2>
+      </div>
+      <p class="lede" data-reveal style="--delay:160ms" data-i18n="reel.lede">
+        Elke productie levert naast de horizontale film ook verticals — 9:16, klaar om te plaatsen,
+        zonder dat er nog iets aan hoeft te gebeuren.
+      </p>
+    </div>
+
+    <div class="reels">
+      <figure class="reel" data-reveal>
+        <video muted loop playsinline preload="none" data-autoplay
+               poster="assets/img/poster-kaiserblick.webp"
+               width="360" height="640"
+               aria-label="Verticale clip van Das Kaiserblick in Ellmau">
+          <source src="assets/video/kaiserblick-loop.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          Das Kaiserblick
+          <em data-i18n="reel.c1">Ellmau, Tirol · Vertical</em>
+        </figcaption>
+      </figure>
+
+      <figure class="reel" data-reveal style="--delay:100ms">
+        <video muted loop playsinline preload="none" data-autoplay
+               poster="assets/img/poster-natterersee.webp"
+               width="360" height="640"
+               aria-label="Verticale clip van een lodge aan het Natterer See">
+          <source src="assets/video/natterersee-loop.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          Natterer See
+          <em data-i18n="reel.c2">Natters, Tirol · Vertical</em>
+        </figcaption>
+      </figure>
+
+      <figure class="reel" data-reveal style="--delay:200ms">
+        <video muted loop playsinline preload="none" data-autoplay
+               poster="assets/img/poster-sorelline.webp"
+               width="360" height="640"
+               aria-label="Verticale clip van het ontbijt bij Le Sorelline">
+          <source src="assets/video/sorelline-loop.mp4" type="video/mp4" />
+        </video>
+        <figcaption>
+          Le Sorelline
+          <em data-i18n="reel.c3">Eindhoven · Vertical</em>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== DIENSTEN ====================== -->
+<section class="section section--cream" id="diensten" aria-labelledby="diensten-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-reveal style="margin-bottom:26px" data-i18n="srv.eyebrow">Wat je overhoudt</span>
+        <h2 class="display d-l" id="diensten-h" data-reveal style="--delay:80ms" data-i18n-html="srv.h">
+          Geen uren cameratijd.<br />Beeld dat <em>een jaar meegaat</em>.
+        </h2>
+      </div>
+      <p class="lede" data-reveal style="--delay:160ms" data-i18n="srv.lede">
+        Alles wordt in één bezoek vastgelegd en gegradeerd in dezelfde toon. Je krijgt volledige
+        gebruiksrechten voor web, social en campagnes — geen nabetaling per plaatsing.
+      </p>
+    </div>
+
+    <div class="services">
+      <article class="service" data-reveal>
+        <span class="index-mark">01</span>
+        <h3 data-i18n="srv.1.h">Cinematische merkfilm</h3>
+        <p data-i18n="srv.1.p">De film die bovenaan je homepage staat en in drie seconden overbrengt
+          waar een brochure drie pagina's voor nodig heeft. Eén verhaal, van aankomst tot avondlicht.</p>
+        <span class="service-out" data-i18n="srv.1.out">Homepage · Boekingssite · Pers</span>
+      </article>
+
+      <article class="service" data-reveal style="--delay:80ms">
+        <span class="index-mark">02</span>
+        <h3 data-i18n="srv.2.h">Hospitality-fotografie</h3>
+        <p data-i18n="srv.2.p">Een beeldbank die je het hele seizoen voedt: suites, tafel, wellness, detail.
+          Warm gegradeerd, consistent, klaar voor web én druk.</p>
+        <span class="service-out" data-i18n="srv.2.out">Website · OTA's · Print</span>
+      </article>
+
+      <article class="service" data-reveal style="--delay:160ms">
+        <span class="index-mark">03</span>
+        <h3 data-i18n="srv.3.h">Aerial &amp; drone</h3>
+        <p data-i18n="srv.3.p">Het perspectief dat in één beweging laat zien waaróm je plek ligt waar hij ligt.
+          Langzame reveals, horizontaal en verticaal aangeleverd.</p>
+        <span class="service-out" data-i18n="srv.3.out">Levering binnen 48 uur</span>
+      </article>
+
+      <article class="service" data-reveal style="--delay:240ms">
+        <span class="index-mark">04</span>
+        <h3 data-i18n="srv.4.h">Verticals voor social</h3>
+        <p data-i18n="srv.4.p">9:16-clips uit dezelfde draaidag, gesneden op ritme. Jij plaatst ze,
+          de locatie wordt getagd, en het beeld blijft van jou.</p>
+        <span class="service-out" data-i18n="srv.4.out">Reels · Stories · TikTok</span>
+      </article>
+    </div>
+
+    <div class="work-note" data-reveal style="border-top-color:rgba(27,27,24,0.14)">
+      <p class="body-muted" data-i18n="srv.note">
+        Werken vanuit Nederland, met vaste reisperiodes in de Alpen. Ligt je locatie in Tirol,
+        Zuid-Tirol of Beieren, dan is er waarschijnlijk al een moment dat ik in de buurt ben.
+      </p>
+      <a class="btn" href="#contact">
+        <span data-i18n="cta.primary">Plan een shoot</span>
+        <span class="arw" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== WERKWIJZE ====================== -->
+<section class="section" id="werkwijze" aria-labelledby="werkwijze-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-reveal style="margin-bottom:26px" data-i18n="app.eyebrow">Werkwijze</span>
+        <h2 class="display d-l" id="werkwijze-h" data-reveal style="--delay:80ms" data-i18n-html="app.h">
+          Eén dag op locatie.<br />Zonder dat je gasten<br />het merken.
+        </h2>
+      </div>
+      <p class="lede" data-reveal style="--delay:160ms" data-i18n="app.lede">
+        Geen crew die het terras bezet en geen dag vol wachten. De voorbereiding gebeurt vooraf,
+        zodat er op locatie alleen nog gefilmd hoeft te worden.
+      </p>
+    </div>
+
+    <div class="steps">
+      <article class="step" data-reveal>
+        <span class="index-mark">01</span>
+        <h3 data-i18n="app.1.h">Het gesprek</h3>
+        <p data-i18n="app.1.p">Twintig minuten, meestal via bellen. Wie komt er bij jou logeren, en wat
+          moet die persoon voelen voordat hij boekt?</p>
+      </article>
+      <article class="step" data-reveal style="--delay:80ms">
+        <span class="index-mark">02</span>
+        <h3 data-i18n="app.2.h">Scout &amp; shotlist</h3>
+        <p data-i18n="app.2.p">Vooraf leg ik vast welk licht waar valt en op welk uur. Vliegzones,
+          route en volgorde staan vast voordat ik de auto instap.</p>
+      </article>
+      <article class="step" data-reveal style="--delay:160ms">
+        <span class="index-mark">03</span>
+        <h3 data-i18n="app.3.h">De draaidag</h3>
+        <p data-i18n="app.3.p">Eén persoon, alle disciplines. Gefilmd rond de rustige uren, zodat het
+          terras vol kan blijven en niemand hoeft te wijken.</p>
+      </article>
+      <article class="step" data-reveal style="--delay:240ms">
+        <span class="index-mark">04</span>
+        <h3 data-i18n="app.4.h">Levering</h3>
+        <p data-i18n="app.4.p">Gegradeerde masters, horizontaal én verticaal, plus stills voor web en print.
+          Volledige gebruiksrechten, in één downloadlink.</p>
+      </article>
+    </div>
+
+    <figure class="approach-media" data-reveal>
+      <img src="assets/img/kaiserblick-suite.webp"
+           srcset="assets/img/kaiserblick-suite-900.webp 900w, assets/img/kaiserblick-suite.webp 1600w"
+           sizes="100vw" width="1600" height="1067" loading="lazy" decoding="async"
+           alt="Suite van Das Kaiserblick bij avondlicht, met open gordijn en uitzicht op de bergen" />
+      <figcaption data-i18n="app.cap">Das Kaiserblick, Ellmau — suite bij het laatste licht</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ====================== STUDIO ====================== -->
+<section class="section" id="studio" aria-labelledby="studio-h">
+  <div class="wrap">
+    <div class="about-grid">
+      <figure class="about-portrait" data-reveal>
+        <img src="assets/img/natterersee-lake.webp"
+             width="1100" height="1650" loading="lazy" decoding="async"
+             alt="Het meer bij Natters in de schemering, vanuit de lucht gefotografeerd" />
+      </figure>
+
+      <div class="about-copy">
+        <span class="eyebrow" data-reveal data-i18n="ab.eyebrow">De studio</span>
+        <h2 class="display d-l" id="studio-h" data-reveal style="--delay:80ms" data-i18n-html="ab.h">
+          Eén paar ogen,<br />drie disciplines.
+        </h2>
+        <p data-reveal style="--delay:160ms" data-i18n-html="ab.p1">
+          De Loor Studio is <strong>Rik Lammerts</strong> — filmmaker, fotograaf en dronepiloot,
+          werkend vanuit Oosterhout. Film, foto en aerial komen bij mij uit dezelfde hand,
+          waardoor alles wat je terugkrijgt in dezelfde toon staat.
+        </p>
+        <p data-reveal style="--delay:220ms" data-i18n="ab.p2">
+          De meeste studio's doen één van de drie goed. Dat merk je later: een prachtige film
+          naast foto's die er niet bij passen. Bij één maker bestaat dat probleem niet.
+        </p>
+        <p data-reveal style="--delay:280ms" data-i18n="ab.p3">
+          Het werk speelt zich af tussen Nederland en de Alpen. Wat ik niet doe: budgethotels,
+          standaard bedrijfsvideo's en evenementenverslaglegging. Niet uit hoogmoed —
+          het vraagt simpelweg een andere blik dan deze.
+        </p>
+
+        <dl class="facts" data-reveal style="--delay:340ms">
+          <div class="fact">
+            <dt data-i18n="ab.f1.t">Werkgebied</dt>
+            <dd data-i18n="ab.f1.d">Nederland &amp; de Alpen</dd>
+          </div>
+          <div class="fact">
+            <dt data-i18n="ab.f2.t">Disciplines</dt>
+            <dd data-i18n="ab.f2.d">Film · Foto · Aerial</dd>
+          </div>
+          <div class="fact">
+            <dt data-i18n="ab.f3.t">Rechten</dt>
+            <dd data-i18n="ab.f3.d">Volledig, onbeperkt</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CONTACT ====================== -->
+<section class="section section--cream contact" id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <span class="eyebrow" data-reveal data-i18n="ct.eyebrow">Contact</span>
+    <h2 class="display d-xl" id="contact-h" data-reveal style="--delay:80ms;margin-top:26px" data-i18n-html="ct.h">
+      Open de deur naar<br />de plek die je <em>gebouwd hebt</em>.
+    </h2>
+
+    <div class="contact-grid">
+      <div data-reveal style="--delay:140ms">
+        <p class="lede" data-i18n="ct.lede">
+          Vertel kort wat voor plek het is en wanneer het licht er op zijn mooist valt.
+          Ik reageer meestal dezelfde dag, met een voorstel voor een moment dat past.
+        </p>
+
+        <dl class="contact-lines">
+          <div class="contact-line">
+            <dt data-i18n="ct.mail">E-mail</dt>
+            <dd><a href="mailto:hello@deloor.studio">hello@deloor.studio</a></dd>
+          </div>
+          <div class="contact-line">
+            <dt data-i18n="ct.phone">WhatsApp</dt>
+            <dd><a href="https://wa.me/31641730319" rel="noopener">+31 6 41 73 03 19</a></dd>
+          </div>
+          <div class="contact-line">
+            <dt data-i18n="ct.social">Instagram</dt>
+            <dd><a href="https://www.instagram.com/deloorstudio/" rel="noopener me">@deloorstudio</a></dd>
+          </div>
+          <div class="contact-line">
+            <dt data-i18n="ct.base">Basis</dt>
+            <dd data-i18n="ct.base.d">Oosterhout, NL — reizend in de Alpen</dd>
+          </div>
+        </dl>
+      </div>
+
+      <form class="form" id="contact-form" data-reveal style="--delay:200ms"
+            action="https://formspree.io/f/xzdqoegp" method="POST">
+        <div class="field-row">
+          <div class="field">
+            <label for="f-name" data-i18n="ct.f.name">Naam</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required />
           </div>
           <div class="field">
-            <label for="f-message" data-i18n="f.message">Vertel ons over jullie locatie</label>
-            <textarea id="f-message" name="message" rows="3" required data-i18n-ph="f.message.ph" placeholder="Het project, de ambitie, de tijdlijn…"></textarea>
+            <label for="f-email" data-i18n="ct.f.email">E-mail</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required />
           </div>
-          <div class="form-foot">
-            <button type="submit" class="cta-btn" data-hover>
-              <span class="label" data-i18n="f.submit">Begin een gesprek</span><span class="arr" aria-hidden="true">→</span>
-            </button>
-            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-          </div>
-        </form>
-      </div>
+        </div>
+
+        <div class="field">
+          <label for="f-place" data-i18n="ct.f.place">Locatie &amp; type verblijf</label>
+          <input id="f-place" name="location" type="text"
+                 data-i18n-ph="ct.f.place.ph" placeholder="Bijv. alpine resort, Tirol" />
+        </div>
+
+        <div class="field">
+          <label for="f-msg" data-i18n="ct.f.msg">Waar gaat het om?</label>
+          <textarea id="f-msg" name="message" rows="4" required
+                    data-i18n-ph="ct.f.msg.ph"
+                    placeholder="Een paar zinnen zijn genoeg."></textarea>
+        </div>
+
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"
+               aria-hidden="true" class="visually-hidden" />
+
+        <div class="form-foot">
+          <button class="btn btn--solid" type="submit">
+            <span data-i18n="ct.f.send">Verstuur</span>
+            <span class="arw" aria-hidden="true">→</span>
+          </button>
+          <p class="form-note" data-i18n="ct.f.note">
+            Liever direct? Stuur een WhatsApp — dat leest meestal sneller.
+          </p>
+        </div>
+
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="foot-top">
-    <div class="foot-brand">DE LOOR<br>STUDIO</div>
-    <div class="foot-cols">
-      <div class="foot-col">
-        <h5 data-i18n="foot.studio">Studio</h5>
-        <a href="#work" data-i18n="foot.work">Werk</a>
-        <a href="#services" data-i18n="foot.serv">Diensten</a>
-        <a href="#process" data-i18n="foot.proc">Proces</a>
-        <a href="#drone" data-i18n="foot.aerial">Lucht</a>
+</main>
+
+<!-- ====================== FOOTER ====================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-mark" data-i18n-html="ft.mark">
+        De Loor Studio<br /><span>Film &amp; fotografie voor luxe verblijven</span>
+      </p>
+
+      <div>
+        <h4 data-i18n="ft.nav">Navigatie</h4>
+        <ul>
+          <li><a href="#werk" data-i18n="nav.work">Werk</a></li>
+          <li><a href="#diensten" data-i18n="nav.services">Diensten</a></li>
+          <li><a href="#werkwijze" data-i18n="nav.approach">Werkwijze</a></li>
+          <li><a href="#studio" data-i18n="nav.studio">Studio</a></li>
+          <li><a href="#contact" data-i18n="cta.primary">Plan een shoot</a></li>
+        </ul>
       </div>
-      <div class="foot-col">
-        <h5 data-i18n="foot.connect">Contact</h5>
-        <a href="mailto:hello@deloor.studio" data-hover>hello@deloor.studio</a>
-      </div>
-      <div class="foot-col">
-        <h5 data-i18n="foot.based">Gevestigd</h5>
-        <p data-i18n="foot.based1">Werkzaam wereldwijd</p>
-        <p data-i18n="foot.based2">Nederland</p>
+
+      <div>
+        <h4 data-i18n="ft.reach">Bereikbaar</h4>
+        <ul>
+          <li><a href="mailto:hello@deloor.studio">hello@deloor.studio</a></li>
+          <li><a href="https://wa.me/31641730319" rel="noopener">+31 6 41 73 03 19</a></li>
+          <li><a href="https://www.instagram.com/deloorstudio/" rel="noopener me">Instagram</a></li>
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="foot-bottom">
-    <span data-i18n="foot.copy">© 2026 De Loor Studio — Cinema voor hospitality</span>
-    <span data-i18n="foot.tag">Verlangen, met intentie.</span>
+
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> De Loor Studio — Oosterhout, NL</span>
+      <span data-i18n="ft.kvk">KvK 89193423 · BTW NL004706414B16</span>
+    </div>
   </div>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js" defer></script>
 </body>
 </html>

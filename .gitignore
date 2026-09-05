@@ -13,3 +13,6 @@ node_modules/
 *.env
 .env*
 *credential*
+
+# Interne strategie — hoort niet op een publieke host
+Documenten Branding/
