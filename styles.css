@@ -798,6 +798,7 @@ body.menu-open { overflow: hidden; }
 
   .proj-stack-wrap,
   .project--flip .proj-stack-wrap {
+    display: block;
     padding: 0;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
