@@ -788,7 +788,8 @@ body.menu-open { overflow: hidden; }
   .nav-toggle { display: flex; }
 
   /* Stapel wordt horizontaal scroll op mobiel */
-  .proj-inner {
+  .proj-inner,
+  .project--flip .proj-inner {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
