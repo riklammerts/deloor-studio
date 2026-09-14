@@ -134,3 +134,59 @@
   });
 
 })();
+
+  /* ── Fotostapel interactie ── */
+  var isTouchDevice = window.matchMedia('(hover: none)').matches;
+
+  document.querySelectorAll('[data-stack]').forEach(function (stack) {
+    var cards = Array.from(stack.querySelectorAll('[data-card]'));
+    if (!cards.length) return;
+
+    if (isTouchDevice) {
+      /* Mobiel: tik op stapel om door foto's te bladeren */
+      var mobileIdx = cards.length - 1;
+      stack.addEventListener('click', function () {
+        cards.forEach(function (c) { c.classList.remove('is-lifted'); });
+        mobileIdx = (mobileIdx - 1 + cards.length) % cards.length;
+        cards[mobileIdx].classList.add('is-lifted');
+      });
+      return;
+    }
+
+    /* Desktop: muis-positie bepaalt welke kaart omhoog komt */
+    function liftClosest(mx, my) {
+      var rect = stack.getBoundingClientRect();
+      var cx = rect.width  / 2;
+      var cy = rect.height / 2;
+      var mouseX = mx - rect.left;
+      var mouseY = my - rect.top;
+
+      var best = null, bestDist = Infinity;
+      cards.forEach(function (card) {
+        var tx = parseFloat(card.dataset.tx || 0);
+        var ty = parseFloat(card.dataset.ty || 0);
+        var cardCX = cx + tx;
+        var cardCY = cy + ty;
+        var dist = Math.hypot(mouseX - cardCX, mouseY - cardCY);
+        if (dist < bestDist) { bestDist = dist; best = card; }
+      });
+
+      cards.forEach(function (c) {
+        var lift  = c === best;
+        var push  = !lift;
+        c.classList.toggle('is-lifted', lift);
+        c.classList.toggle('is-pushed', push);
+      });
+    }
+
+    stack.addEventListener('mousemove', function (e) {
+      liftClosest(e.clientX, e.clientY);
+    });
+
+    stack.addEventListener('mouseleave', function () {
+      cards.forEach(function (c) {
+        c.classList.remove('is-lifted', 'is-pushed');
+      });
+    });
+  });
+
