@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>De Loor Studio</title>
+<meta http-equiv="refresh" content="0; url=/">
+<script>
+  // Bewaar de bedoelde URL en stuur door naar homepage met hash
+  var path = window.location.pathname.replace(/\/$/, '');
+  var anchors = { '/diensten': '#diensten', '/werk': '#werk', '/contact': '#contact', '/tarieven': '#tarieven' };
+  window.location.replace(anchors[path] ? '/' + anchors[path] : '/');
+</script>
+</head>
+<body>
+<p><a href="/">Terug naar De Loor Studio →</a></p>
+</body>
+</html>
