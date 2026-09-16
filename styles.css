@@ -688,9 +688,20 @@ body.menu-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  background: transparent;
+  transition: background .35s ease, border-color .35s ease, box-shadow .35s ease, transform .35s cubic-bezier(.23,1,.32,1);
+}
+.pricing-card:hover {
+  background: rgba(184, 126, 96, .05);
+  border-top-color: var(--accent);
+  box-shadow: 0 0 60px rgba(184, 126, 96, .1);
+  transform: translateY(-3px);
 }
 .pricing-card + .pricing-card {
   border-left: 1px solid var(--dark-rule);
+}
+.pricing-card + .pricing-card:hover {
+  border-left-color: var(--accent);
 }
 
 .pricing-badge {
